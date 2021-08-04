@@ -6,11 +6,15 @@
 
 <script>
 import DialogueView from './components/dialogue-view/DialogueView.vue'
+import Story from './data/story'
 
 export default {
   name: 'App',
   components: {
     DialogueView
+  },
+  created() {
+    console.log(Story);
   }
 }
 </script>
